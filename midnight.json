@@ -1,0 +1,13 @@
+{
+  "name": "Midnight",
+  "version": "2.1.1",
+  "description": "A dark, customizable Discord theme.",
+  "author": "refact0r (ported by MoriitoDev)",
+  "theme_type": "vendetta",
+  "source": "https://github.com/MoriitoDev/midnight-discord-releases",
+  "website": "https://www.refact0r.dev",
+  "invite": "nz87hXyvcy",
+  "authorId": "508863359777505290",
+  "authorLink": "https://www.refact0r.dev",
+  "stylesheet": "https://raw.githubusercontent.com/MoriitoDev/midnight-discord-releases/refs/heads/master/midnight.theme.css"
+}
