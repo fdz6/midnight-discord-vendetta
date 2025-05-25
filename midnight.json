@@ -1,85 +1,145 @@
 {
-  "name": "Midnight (Vendetta)",
-  "description": "A dark, customizable Discord theme based on Vencord.",
-  "authors": [
-    {
-      "name": "refact0r",
-      "id": "508863359777505290",
-      "url": "https://www.refact0r.dev"
-    }
-  ],
+  "name": "midnight",
+  "description": "A dark, customizable discord theme.",
+  "author": "refact0r",
   "version": "2.1.1",
   "invite": "nz87hXyvcy",
   "website": "https://github.com/refact0r/midnight-discord",
   "source": "https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css",
-  "spec": 2,
-  "semanticColors": {
-    "HEADER_PRIMARY": ["#d4be98"],
-    "HEADER_SECONDARY": ["#a79a83"],
-    "TEXT_NORMAL": ["#d4be98"],
-    "TEXT_MUTED": ["#d4be9866"],
-    "INTERACTIVE_NORMAL": ["#d4be98"],
-    "INTERACTIVE_HOVER": ["#a79a83"],
-    "INTERACTIVE_ACTIVE": ["#d4be98"],
-    "BACKGROUND_PRIMARY": ["#282828"],
-    "BACKGROUND_SECONDARY": ["#3c3836"],
-    "BACKGROUND_TERTIARY": ["#332f2c"],
-    "BACKGROUND_ACCENT": ["#7caea3"],
-    "BACKGROUND_FLOATING": ["#3c3836"],
-    "BACKGROUND_MESSAGE_HOVER": ["hsla(0, 0%, 0%, 0.1)"],
-    "BACKGROUND_MODIFIER_HOVER": ["hsla(20, 3%, 40%, 0.1)"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["hsla(20, 3%, 40%, 0.2)"],
-    "BACKGROUND_MODIFIER_SELECTED": ["hsla(20, 3%, 40%, 0.3)"],
-    "SCROLLBAR_THIN_THUMB": ["#7caea3"],
-    "SCROLLBAR_THIN_TRACK": ["#3c3836"],
-    "SCROLLBAR_AUTO_THUMB": ["#7caea3"],
-    "SCROLLBAR_AUTO_TRACK": ["#3c3836"],
-    "CHANNELTEXTAREA_BACKGROUND": ["#3c3836"],
-    "CHANNELS_DEFAULT": ["#d4be98"],
-    "TEXT_LINK": ["#d3869b"],
-    "TEXT_DANGER": ["#ea6962"],
-    "KEYBOARD": ["#282828"],
-    "CHANNEL_ICON": ["#a79a83"],
-    "CHAT_BACKGROUND": ["#282828"]
+  "authorId": "508863359777505290",
+  "authorLink": "https://www.refact0r.dev",
+  "import": "https://refact0r.github.io/midnight-discord/build/midnight.css",
+
+  "settings": {
+    "fonts": {
+      "font": "figtree",
+      "codeFont": "",
+      "fontWeight": "400"
+    },
+    "sizes": {
+      "gap": "12px",
+      "dividerThickness": "4px",
+      "borderThickness": "1px"
+    },
+    "animations": {
+      "animations": "on",
+      "listItemTransition": "0.2s ease",
+      "dmsIconSvgTransition": "0.4s ease",
+      "borderHoverTransition": "0.2s ease"
+    },
+    "topBar": {
+      "height": "var(--gap)",
+      "buttonPosition": "titlebar",
+      "titlePosition": "off",
+      "subtleTitle": "off"
+    },
+    "windowControls": {
+      "customWindowControls": "on",
+      "windowControlSize": "14px"
+    },
+    "dmsButton": {
+      "customDmsIcon": "custom",
+      "dmsIconSvgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg",
+      "dmsIconSvgSize": "90%",
+      "dmsIconColorBefore": "var(--icon-secondary)",
+      "dmsIconColorAfter": "var(--white)",
+      "customDmsBackground": "off",
+      "dmsBackgroundImageUrl": "",
+      "dmsBackgroundImageSize": "cover",
+      "dmsBackgroundColor": "linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2))"
+    },
+    "backgroundImage": {
+      "enabled": "off",
+      "url": ""
+    },
+    "transparencyBlur": {
+      "transparencyTweaks": "off",
+      "removeBgLayer": "off",
+      "panelBlur": "off",
+      "blurAmount": "12px",
+      "bgFloating": "var(--bg-3)"
+    },
+    "chatbar": {
+      "customChatbar": "aligned",
+      "height": "47px",
+      "padding": "8px"
+    },
+    "otherOptions": {
+      "smallUserPanel": "on"
+    }
   },
-  "rawColors": {
-    "RED_1": "hsl(3, 76%, 70%)",
-    "RED_2": "#ea6962",
-    "RED_3": "#ea6962",
-    "RED_4": "hsl(3, 76%, 60%)",
-    "RED_5": "hsl(3, 76%, 55%)",
 
-    "GREEN_1": "hsl(70, 36%, 60%)",
-    "GREEN_2": "#a8b665",
-    "GREEN_3": "#a8b665",
-    "GREEN_4": "hsl(70, 36%, 50%)",
-    "GREEN_5": "hsl(70, 36%, 45%)",
-
-    "BLUE_1": "hsl(167, 24%, 63%)",
-    "BLUE_2": "#7caea3",
-    "BLUE_3": "#7caea3",
-    "BLUE_4": "hsl(167, 24%, 53%)",
-    "BLUE_5": "hsl(167, 24%, 48%)",
-
-    "YELLOW_1": "hsl(37, 63%, 64%)",
-    "YELLOW_2": "#d8a656",
-    "YELLOW_3": "#d8a656",
-    "YELLOW_4": "hsl(37, 63%, 54%)",
-    "YELLOW_5": "hsl(37, 63%, 49%)",
-
-    "PURPLE_1": "hsl(344, 47%, 73%)",
-    "PURPLE_2": "#d3869b",
-    "PURPLE_3": "#d3869b",
-    "PURPLE_4": "hsl(344, 47%, 63%)",
-    "PURPLE_5": "hsl(344, 47%, 58%)"
-  },
-  "custom": {
-    "font": "Inter, sans-serif",
-    "chatbarHeight": "47px",
-    "chatbarPadding": "8px",
-    "topBarHeight": "12px",
-    "borderThickness": "1px",
-    "dividerThickness": "4px",
-    "animations": "on"
+  "colors": {
+    "enabled": "on",
+    "text": {
+      "text0": "var(--bg-4)",
+      "text1": "hsl(220, 45%, 95%)",
+      "text2": "hsl(220, 25%, 70%)",
+      "text3": "hsl(220, 20%, 60%)",
+      "text4": "hsl(220, 15%, 40%)",
+      "text5": "hsl(220, 15%, 25%)"
+    },
+    "background": {
+      "bg1": "hsla(220, 15%, 20%, 1)",
+      "bg2": "hsla(220, 15%, 16%, 1)",
+      "bg3": "hsla(220, 15%, 13%, 1)",
+      "bg4": "hsla(220, 15%, 10%, 1)",
+      "hover": "hsla(221, 19%, 40%, 0.1)",
+      "active": "hsla(220, 19%, 40%, 0.2)",
+      "active2": "hsla(220, 19%, 40%, 0.3)",
+      "messageHover": "hsla(220, 0%, 0%, 0.1)"
+    },
+    "accent": {
+      "accent1": "var(--blue-1)",
+      "accent2": "var(--blue-2)",
+      "accent3": "var(--blue-3)",
+      "accent4": "var(--blue-4)",
+      "accent5": "var(--blue-5)",
+      "accentNew": "var(--accent-2)",
+      "mention": "linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent)",
+      "mentionHover": "linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent)",
+      "reply": "linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent)",
+      "replyHover": "linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent)"
+    },
+    "status": {
+      "online": "var(--green-2)",
+      "dnd": "var(--red-2)",
+      "idle": "var(--yellow-2)",
+      "streaming": "var(--purple-2)",
+      "offline": "var(--text-4)"
+    },
+    "borders": {
+      "borderLight": "var(--hover)",
+      "border": "var(--active)",
+      "borderHover": "var(--active)",
+      "buttonBorder": "hsl(220, 0%, 100%, 0.1)"
+    },
+    "baseColors": {
+      "red1": "oklch(75% 0.12 0)",
+      "red2": "oklch(70% 0.12 0)",
+      "red3": "oklch(65% 0.12 0)",
+      "red4": "oklch(60% 0.12 0)",
+      "red5": "oklch(55% 0.12 0)",
+      "green1": "oklch(75% 0.11 170)",
+      "green2": "oklch(70% 0.11 170)",
+      "green3": "oklch(65% 0.11 170)",
+      "green4": "oklch(60% 0.11 170)",
+      "green5": "oklch(55% 0.11 160)",
+      "blue1": "oklch(75% 0.1 215)",
+      "blue2": "oklch(70% 0.1 215)",
+      "blue3": "oklch(65% 0.1 215)",
+      "blue4": "oklch(60% 0.1 215)",
+      "blue5": "oklch(55% 0.1 215)",
+      "yellow1": "oklch(80% 0.11 90)",
+      "yellow2": "oklch(75% 0.11 90)",
+      "yellow3": "oklch(70% 0.11 90)",
+      "yellow4": "oklch(65% 0.11 90)",
+      "yellow5": "oklch(60% 0.11 90)",
+      "purple1": "oklch(75% 0.11 310)",
+      "purple2": "oklch(70% 0.11 310)",
+      "purple3": "oklch(65% 0.11 310)",
+      "purple4": "oklch(60% 0.11 310)",
+      "purple5": "oklch(55% 0.11 310)"
+    }
   }
 }
