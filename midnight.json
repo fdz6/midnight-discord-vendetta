@@ -1,6 +1,6 @@
 {
   "name": "Midnight",
-  "description": "A dark, customizable theme based on refact0r's original Midnight design.",
+  "description": "Midnight by refact0r, adapted for Revenge Discord.",
   "spec": 2,
   "authors": [
     {
@@ -9,22 +9,26 @@
     }
   ],
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#0e0e10"],
-    "BACKGROUND_SECONDARY": ["#1a1a1c"],
-    "BACKGROUND_TERTIARY": ["#232327"],
-    "BACKGROUND_ACCENT": ["#2c2c31"],
-    "BACKGROUND_FLOATING": ["#1a1a1f"],
-    "TEXT_NORMAL": ["#e0e0e0"],
-    "TEXT_MUTED": ["#a0a0a0"],
+    "BACKGROUND_PRIMARY": ["#1a1b1f"],
+    "BACKGROUND_SECONDARY": ["#18191c"],
+    "BACKGROUND_TERTIARY": ["#121416"],
+    "BACKGROUND_ACCENT": ["#2c2f33"],
+    "BACKGROUND_FLOATING": ["#18191c"],
+    "BACKGROUND_MODIFIER_ACCENT": ["rgba(97, 97, 107, 0.2)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(97, 97, 107, 0.3)"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(97, 97, 107, 0.1)"],
+    "TEXT_NORMAL": ["#dfe2e6"],
+    "TEXT_MUTED": ["#9a9ca1"],
     "TEXT_LINK": ["#6c8eff"],
-    "HEADER_PRIMARY": ["#f2f3f5"],
+    "HEADER_PRIMARY": ["#e3e5e8"],
     "HEADER_SECONDARY": ["#b9bbbe"],
     "INTERACTIVE_NORMAL": ["#b9bbbe"],
     "INTERACTIVE_HOVER": ["#dcddde"],
     "INTERACTIVE_ACTIVE": ["#ffffff"],
     "INTERACTIVE_MUTED": ["#4f545c"],
-    "STATUS_POSITIVE": ["#57f287"],
-    "STATUS_WARNING": ["#faa61a"],
-    "STATUS_DANGER": ["#ed4245"]
+    "STATUS_POSITIVE": ["oklch(70% 0.11 170)"],
+    "STATUS_WARNING": ["oklch(75% 0.11 90)"],
+    "STATUS_DANGER": ["oklch(70% 0.12 0)"],
+    "STATUS_STREAMING": ["oklch(70% 0.11 310)"]
   }
 }
